@@ -1,0 +1,36 @@
+/* Navigation */
+
+nav.navbar.bg-success {
+  background: linear-gradient(90deg, #111 0%, hsl(150, 70%, 31%) 100%);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  background-color: white;
+  padding: .5rem;
+  color: hsl(150, 70%, 31%);
+}
+
+.navbar .btn-outline-success {
+  color: white;
+  border-color: white;
+}
+
+.navbar .btn-outline-success:hover {
+  background-color: white;
+  color: hsl(150, 70%, 31%);
+}
+
+/* Hero */
+
+.hero{
+  background-image: url('/images/home/garden.webp');
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  width: 100%;
+  align-items: center;
+}
+
+.home {
+  height: 80vh;
+}
